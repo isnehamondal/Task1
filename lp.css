@@ -1,0 +1,125 @@
+.header{
+    height: 600px;
+    width: 100%;
+    top: 0;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 600px;
+    
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name p{
+    height: 200px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-weight: bold;
+    
+}
+
+.preview{
+    height: auto;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+
+.preview p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 0.6cm;
+}
+
+.text{
+    height: 200px;
+    margin-bottom: 4px;
+    background-color: rgb(169, 169, 244);
+}
+
+.left, .right{
+    width: 30%;
+}
+
+.quote{
+    padding: 15px;
+}
+
+.quote p{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 50, 254);
+}
+
+.works{
+    height: auto;
+    margin-bottom: 4px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.list li{
+    height: 180px;
+    width: 150px;
+}
+
+.list img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.materials{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.materials img{
+    height: 100px;
+    width: 100px;
+}
+
+.texts{
+    height: 200px;
+    margin-bottom: 4px;
+    background-color: rgb(147, 147, 241);
+}
+
+.quotes{
+    padding: 15px;
+}
+
+.quotes p{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(46, 46, 251);
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(82, 82, 217);
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 12, 78);
+}
